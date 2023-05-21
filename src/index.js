@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-
+import TrollWebsite from './TrollWebsite'; // Import the TrollWebsite component
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TrollWebsite /> {/* Render the TrollWebsite component */}
   </React.StrictMode>,
   document.getElementById('root')
 );
-
